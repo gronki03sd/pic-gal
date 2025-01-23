@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Interactive Photo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 0;
+            padding: 20px;
+        }
+
+        figure {
+            margin: 0;
+            text-align: center;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+
+        img:focus {
+            outline: 2px solid #007BFF;
+        }
+
+        figcaption {
+            margin-top: 10px;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My Photo Gallery</h1>
+    <figure>
+        <img src="image1.jpg" alt="Description of image 1">
+        <figcaption>Image 1</figcaption>
+    </figure>
+    <figure>
+        <img src="image2.jpg" alt="Description of image 2">
+        <figcaption>Image 2</figcaption>
+    </figure>
+    <figure>
+        <img src="image3.jpg" alt="Description of image 3">
+        <figcaption>Image 3</figcaption>
+    </figure>
+    <figure>
+        <img src="image4.jpg" alt="Description of image 4">
+        <figcaption>Image 4</figcaption>
+    </figure>
+    <figure>
+        <img src="image5.jpg" alt="Description of image 5">
+        <figcaption>Image 5</figcaption>
+    </figure>
+    <figure>
+        <img src="image6.jpg" alt="Description of image 6">
+        <figcaption>Image 6</figcaption>
+    </figure>
+    <script src="script.js"></script>
+</body>
+
+</html>
